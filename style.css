@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(3, 128, 252);
+}
+.card
+{
+    position: relative;
+    top:-10x;
+    bottom:0px;
+    width: 440px;
+    height: 740px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px black;
+}
+.card .content
+{
+    position: absolute;
+    left: 75px;
+    top: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.card .opis
+{
+    position: absolute;
+    left: 75px;
+    top: 150px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.card .opis2
+{
+    position: absolute;
+    left: 75px;
+    top: 190px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+hr.one
+{
+    position: relative;
+    left: 75px;
+    top: 130px;
+    border-radius: 100px;
+    border-color: magenta;
+    width: 65px;
+    height: 2.7px;
+    background: magenta;
+}
+.card .opis3
+{
+    position: absolute;
+    left: 75px;
+    top: 320px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.card .opis4
+{
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.card .opis5
+{
+    position: absolute;
+    left: 120px;
+    top: 420px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+h2
+{
+    font-size: 40px;
+}
+h3
+{
+    font-size: 22px;
+}
+h4
+{
+    font-size: 20px;
+    font-weight: normal;
+}
+a
+{
+    color: magenta;
+    font-weight: bold;
+    text-decoration: none;
+}
+.card .opis6
+{
+    position: absolute;
+    left: 150px;
+    top: 550px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
